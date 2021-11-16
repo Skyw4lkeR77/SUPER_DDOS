@@ -107,8 +107,8 @@ class AttackMethod:
             target = str(self.target).strip("()").replace(", ", ":").replace("'", "")
         duration = format_timespan(self.duration)
         print(
-            f"{Fore.MAGENTA}[?] {Fore.BLUE}Começando o ataque {target} utiilzando o método {self.name}.{Fore.RESET}\n"
-            f"{Fore.MAGENTA}[?] {Fore.BLUE}O ataque será interrompido após {Fore.MAGENTA}{duration}{Fore.BLUE}.{Fore.RESET}"
+            f"{Fore.MAGENTA}[?] {Fore.BLUE}starting the attack {target} using the method {self.name}.{Fore.RESET}\n"
+            f"{Fore.MAGENTA}[?] {Fore.BLUE}The attack will be stopped after {Fore.MAGENTA}{duration}{Fore.BLUE}.{Fore.RESET}"
         )
         self.is_running = True
         try:
@@ -116,7 +116,7 @@ class AttackMethod:
         except KeyboardInterrupt:
             self.is_running = False
             print(
-                f"\n{Fore.RED}[!] {Fore.MAGENTA}Ctrl+C detetado. Parando {self.threads_count} threads..{Fore.RESET}"
+                f"\n{Fore.RED}[!] {Fore.MAGENTA}Ctrl+C detected. stopping {self.threads_count} threads..{Fore.RESET}"
             )
             # Wait for threads to end
             for thread in self.threads:

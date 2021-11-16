@@ -21,8 +21,8 @@
 ```
 $ sudo apt update
 $ sudo apt install python3 python3-pip git -y
-$ git clone https://github.com/7zx/overload
-$ cd overload/
+$ git clone https://github.com/Skyw4lkeR77/SUPER_DDOS
+$ cd SUPER_DDOS/
 $ pip3 install -r requirements.txt or python -m pip install -r requirements.txt
 ```
 
@@ -31,8 +31,8 @@ $ pip3 install -r requirements.txt or python -m pip install -r requirements.txt
 ```
 $ pkg update
 $ pkg install python3 python3-pip git -y
-$ git clone https://github.com/7zx/overload
-$ cd overload/
+$ git clone https://github.com/Skyw4lkeR77/SUPER_DDOS
+$ cd SUPER_DDOS/
 $ pip3 install -r requirements.txt
 ```
 

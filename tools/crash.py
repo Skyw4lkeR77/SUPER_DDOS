@@ -5,7 +5,7 @@ import platform
 from time import ctime
 from colorama import Fore
 
-""" Fungsi ini akan menghentikan program ketika terjadi kesalahan kritis """
+""" Fungsi ini akan menghentikan program ketika terjadi Error """
 
 
 def CriticalError(message, error):
@@ -29,7 +29,7 @@ def CriticalError(message, error):
     {Fore.MAGENTA}NODE: {platform.node()}
     {Fore.MAGENTA}TIME: {ctime()}
     {Fore.RED}:=== Report:
-    {Fore.MAGENTA}Reporta o teu erro aqui: https://github.com/Skyw4lkeR77/POWER_DDOS/issues/new
+    {Fore.MAGENTA}Jika Error laporkan di sini: https://github.com/Skyw4lkeR77/POWER_DDOS/issues/new
     {Fore.RESET}
     """)
     sys.exit(5)

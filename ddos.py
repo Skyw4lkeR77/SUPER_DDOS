@@ -32,10 +32,10 @@ parser.add_argument(
     help="Attack method",
 )
 parser.add_argument(
-    "--time", type=int, default=1200, metavar="<time>", help="tempo em segundos"
+    "--time", type=int, default=1200, metavar="<time>", help="time in seconds"
 )
 parser.add_argument(
-    "--threads", type=int, default=100, metavar="<threads>", help="contagem de threads (1-200)"
+    "--threads", type=int, default=100, metavar="<threads>", help="thread count (1-200)"
 )
 
 # Obtem args
